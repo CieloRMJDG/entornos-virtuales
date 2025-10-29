@@ -4,39 +4,6 @@
 Este proyecto muestra un algoritmo básico en Python que explica los pasos para preparar un sándwich.  
 El objetivo es practicar la estructura de funciones y la ejecución de código dentro de un entorno virtual.
 
-
-## ⚙️ Instalación y configuración
-
-1. Crear un entorno virtual:
-   bash
-   python -m venv venv_1
-
-
-2. Activar el entorno virtual:
-
-   * En Windows:
-
-     ```bash
-     venv_1\Scripts\activate
-     ```
-   * En Linux/Mac:
-
-     ```bash
-     source venv_1/bin/activate
-     ```
-
-3. Instalar las dependencias:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Ejecutar el programa:
-
-   ```bash
-   python src/algoritmo_a.py
-   ```
-
 ## 🧠 Funcionalidad principal
 
 El archivo `algoritmo_a.py` contiene una función llamada `preparar_sandwich()` que imprime paso a paso el proceso de preparar un sándwich:
@@ -72,38 +39,6 @@ def preparar_sandwich():
 Este proyecto utiliza las librerías **NumPy** y **Pandas** para realizar operaciones con datos numéricos.  
 El propósito es aprender cómo manejar y analizar datos dentro de un entorno virtual independiente.
 
-
-## ⚙️ Instalación y configuración
-
-1. Crear un entorno virtual:
-   bash
-   python -m venv venv_2
-
-
-2. Activar el entorno virtual:
-
-   * En Windows:
-
-     ```bash
-     venv_2\Scripts\activate
-     ```
-   * En Linux/Mac:
-
-     ```bash
-     source venv_2/bin/activate
-     ```
-
-3. Instalar dependencias:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Ejecutar el programa:
-
-   ```bash
-   python src/algoritmo_b.py
-   ```
 
 ## 🧠 Funcionalidad principal
 
