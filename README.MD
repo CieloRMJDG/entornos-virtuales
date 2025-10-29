@@ -7,12 +7,12 @@ El objetivo es practicar la estructura de funciones y la ejecución de código d
 
 ## ⚙️ Instalación y configuración
 
-1. **Crear un entorno virtual:**
+1. Crear un entorno virtual:
    ```bash
    python -m venv venv_1
 ````
 
-2. **Activar el entorno virtual:**
+2. Activar el entorno virtual:
 
    * En Windows:
 
@@ -25,13 +25,13 @@ El objetivo es practicar la estructura de funciones y la ejecución de código d
      source venv_1/bin/activate
      ```
 
-3. **Instalar las dependencias:**
+3. Instalar las dependencias:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Ejecutar el programa:**
+4. Ejecutar el programa:
 
    ```bash
    python src/algoritmo_a.py
@@ -41,7 +41,7 @@ El objetivo es practicar la estructura de funciones y la ejecución de código d
 
 El archivo `algoritmo_a.py` contiene una función llamada `preparar_sandwich()` que imprime paso a paso el proceso de preparar un sándwich:
 
-```python
+``` python
 def preparar_sandwich():
     pasos = [
         "1. Tomar dos rebanadas de pan.",
@@ -75,12 +75,12 @@ El propósito es aprender cómo manejar y analizar datos dentro de un entorno vi
 
 ## ⚙️ Instalación y configuración
 
-1. **Crear un entorno virtual:**
+1. Crear un entorno virtual:
    ```bash
    python -m venv venv_2
 ````
 
-2. **Activar el entorno virtual:**
+2. Activar el entorno virtual:
 
    * En Windows:
 
@@ -93,13 +93,13 @@ El propósito es aprender cómo manejar y analizar datos dentro de un entorno vi
      source venv_2/bin/activate
      ```
 
-3. **Instalar dependencias:**
+3. Instalar dependencias:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Ejecutar el programa:**
+4. Ejecutar el programa:
 
    ```bash
    python src/algoritmo_b.py
