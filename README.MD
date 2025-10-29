@@ -4,22 +4,6 @@
 Este proyecto muestra un algoritmo básico en Python que explica los pasos para preparar un sándwich.  
 El objetivo es practicar la estructura de funciones y la ejecución de código dentro de un entorno virtual.
 
-## 📁 Estructura del proyecto
-
-proyecto_A/
-│
-├── src/
-│   └── algoritmo_a.py
-│
-├── venv_1/               # Entorno virtual (ignorado con .gitignore)
-│
-├── notebook.ipynb        # Versión en Jupyter Notebook
-│
-├── requirements.txt      # Librerías necesarias para el proyecto
-│
-└── README.md
-
-````
 
 ## ⚙️ Instalación y configuración
 
@@ -81,7 +65,78 @@ def preparar_sandwich():
 * `six`
 * `tzdata`
 
+
+# 📊 Proyecto B - Algoritmo de Cálculos con Datos
+
+## 📘 Descripción
+Este proyecto utiliza las librerías **NumPy** y **Pandas** para realizar operaciones con datos numéricos.  
+El propósito es aprender cómo manejar y analizar datos dentro de un entorno virtual independiente.
+
+
+## ⚙️ Instalación y configuración
+
+1. **Crear un entorno virtual:**
+   ```bash
+   python -m venv venv_2
+````
+
+2. **Activar el entorno virtual:**
+
+   * En Windows:
+
+     ```bash
+     venv_2\Scripts\activate
+     ```
+   * En Linux/Mac:
+
+     ```bash
+     source venv_2/bin/activate
+     ```
+
+3. **Instalar dependencias:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Ejecutar el programa:**
+
+   ```bash
+   python src/algoritmo_b.py
+   ```
+
+## 🧠 Funcionalidad principal
+
+El archivo `algoritmo_b.py` realiza operaciones matemáticas y de análisis de datos simples, usando las librerías NumPy y Pandas.
+
+Ejemplo de código:
+
+```python
+import numpy as np
+import pandas as pd
+
+def calcular_promedio():
+    datos = np.array([10, 20, 30, 40, 50])
+    promedio = np.mean(datos)
+    print(f"El promedio de los datos es: {promedio}")
+
+calcular_promedio()
+```
+
+## 🧩 Librerías utilizadas
+
+* `numpy`
+* `pandas`
+* `python-dateutil`
+* `pytz`
+* `six`
+* `tzdata`
+
 ## 🧾 Autor
 
-Proyecto desarrollado por Cielo Rodriguez como parte de la práctica de entornos virtuales y manejo de dependencias en Python.
+Proyecto desarrollado por Cielo Rodriguez 
+
+
+
+
 
