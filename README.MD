@@ -8,9 +8,9 @@ El objetivo es practicar la estructura de funciones y la ejecución de código d
 ## ⚙️ Instalación y configuración
 
 1. Crear un entorno virtual:
-   ```bash
+   bash
    python -m venv venv_1
-```
+
 
 2. Activar el entorno virtual:
 
