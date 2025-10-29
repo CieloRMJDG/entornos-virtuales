@@ -76,9 +76,9 @@ El propósito es aprender cómo manejar y analizar datos dentro de un entorno vi
 ## ⚙️ Instalación y configuración
 
 1. Crear un entorno virtual:
-   ```bash
+   bash
    python -m venv venv_2
-````
+
 
 2. Activar el entorno virtual:
 
